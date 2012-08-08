@@ -1,6 +1,7 @@
 package qa.cucumber;
 
 import cucumber.annotation.en.Given;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class NavigationStepdefs {
@@ -14,6 +15,7 @@ public class NavigationStepdefs {
     @Given("^I am on the front page$")
     public void i_am_on_the_front_page() {
         driver.get("http://localhost:" + ServerHooks.PORT);
+        driver.findElement(By.linkText("Create an account")).click();
     }
 
     @Given("^I am on the Google page$")
