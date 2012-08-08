@@ -1,5 +1,8 @@
+package qa.cucumber;
+
 import cucumber.annotation.After;
 import cucumber.annotation.Before;
+import qa.cucumber.TemperatureServer;
 
 import java.io.IOException;
 

@@ -1,3 +1,5 @@
+package qa.cucumber;
+
 import cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
 

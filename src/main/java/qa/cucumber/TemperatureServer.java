@@ -1,3 +1,5 @@
+package qa.cucumber;
+
 import org.webbitserver.BaseWebSocketHandler;
 import org.webbitserver.WebServer;
 import org.webbitserver.WebServers;
@@ -11,7 +13,7 @@ public class TemperatureServer {
 
     public TemperatureServer(int port) {
         webServer = WebServers.createWebServer(port);
-        webServer.add(new EmbeddedResourceHandler("web"));
+        webServer.add(new EmbeddedResourceHandler("qa.cucumber"));
         webServer.add("/temperature", new BaseWebSocketHandler() {
             @Override
             public void onMessage(WebSocketConnection connection, String msg) throws Throwable {

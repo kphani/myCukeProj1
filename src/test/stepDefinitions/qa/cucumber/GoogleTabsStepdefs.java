@@ -1,11 +1,11 @@
+package qa.cucumber;
+
 import cucumber.annotation.en.Then;
 import cucumber.annotation.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
-
-
 
 import static org.junit.Assert.assertTrue;
 

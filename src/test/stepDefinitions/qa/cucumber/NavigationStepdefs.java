@@ -1,3 +1,5 @@
+package qa.cucumber;
+
 import cucumber.annotation.en.Given;
 import org.openqa.selenium.WebDriver;
 

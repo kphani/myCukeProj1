@@ -1,3 +1,5 @@
+package qa.cucumber;
+
 import cucumber.annotation.After;
 import cucumber.annotation.Before;
 import cucumber.runtime.ScenarioResult;

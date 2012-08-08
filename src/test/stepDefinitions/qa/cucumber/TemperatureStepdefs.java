@@ -1,3 +1,5 @@
+package qa.cucumber;
+
 import cucumber.annotation.en.Then;
 import cucumber.annotation.en.When;
 import org.openqa.selenium.By;
