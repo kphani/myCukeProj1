@@ -14,6 +14,7 @@ public class NavigationStepdefs {
     @Given("^I am on the front page$")
     public void i_am_on_the_front_page() {
         driver.get("http://localhost:" + ServerHooks.PORT);
+
     }
 
     @Given("^I am on the Google page$")

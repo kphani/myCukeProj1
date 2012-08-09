@@ -34,6 +34,7 @@ public class GoogleTabsStepdefs {
     public void cardShouldBeReturned() {
            assertTrue(driver.findElement(By.linkText("Create an account")).isDisplayed());
         driver.findElement(By.linkText("Create an account")).click();
+        driver.findElement(By.linkText("Create an account")).click();
 
 
     }
